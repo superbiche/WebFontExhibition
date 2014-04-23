@@ -1,4 +1,4 @@
-# Web Font Specimen Server
+# Web Font Exhibition
 
 [Web Font Specimen](http://wfs.typographisme.net/) is a very lightweight tool helping any designer who uses type to check any font properties in a really simple and fast way.  
 
@@ -7,14 +7,14 @@ In addition, the @font-face technique used is not using the .otf format, but ins
 By **saving** the directory structure of the selected Fonts directory in a **SQLite3** database, it avoids parsing the directory structure on each reload.  
 Finally, the fonts are **lazy-loaded**, and a **preview** is available from the select menu.  
 
-_**For people who don't like PHP**, you can simply use [Web Font Specimen](http://wfs.typographisme.net/) coupled with [FontFrient](http://somadesign.ca/projects/fontfriend/), an incredibly useful bookmarklet that allows you to change your page's font by simply dragging it in a zone. But that's not the point._
+_**For people who don't like PHP**, you can simply use [Web Font Specimen](http://wfs.typographisme.net/) coupled with [FontFriend](http://somadesign.ca/projects/fontfriend/), an incredibly useful bookmarklet that allows you to change your page's font by simply dragging it in a zone. But that's not the point._
 
 ## How to
 
 ### Installation
 
 Extract the content of the archive if needed, then simply move the folder anywhere under your webserver document root.  
-While it's not essential, I recommend setting a virtual host. Nice web typography deserves at least a host, you lazy!
+While it's not essential, I recommend setting a virtual host or an Apache alias. Easy access for lazy people :)  
 
 #### Linking to the fonts
 ##### Directory structure
@@ -38,9 +38,9 @@ It can be like in the following examples :
 
 ##### Linking 
 * __Mac OS X users, as well as Linux users, can make a link to their Fonts folder in the terminal by typing : __  
-	`ln -s [/path/to/your/fonts/folder] [/path/to/web-font-specimen-server/root/Fonts]`  
+	`ln -s [/path/to/your/fonts/folder] [/path/to/web/font/exhibition/Fonts]`  
 	_(the second path must be the same that the index.php file)_  
-	For me, it was : `ln -s ~/Fonts/Web ~/www/tools/WebFontSpecimenServer/htdocs/Fonts`  
+	Example : `ln -s ~/Fonts/Web ~/www/WebFontExhibition/Fonts`  
 	
 * __Windows users have to build a symlink using [this tutorial](http://www.simounet.net/creation-de-liens-symboliques-sous-windows-7-symlink/)__ (_in french_).  
 If you can't read french, go to [this page on How-To Geek](http://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/) _(didn't test this one)_
@@ -52,4 +52,5 @@ Just open the /inc/config.inc.php file and set config.fonts.directory to the rig
 
 
 ### Enjoy the beauty of type and the power of PHP+javascript
-Now you're done! Just go with your browser to the right page, and you should see something really similar to Web Font Specimen, with just one exception: the select menu allows you to **dynamically change the font you're watching**, but also to **see a preview of all the fonts**. Voilà !  
+Now you're done! Just go with your browser to the right page, and you should see something really similar to Web Font Specimen, with just one exception: the select menu allows you to **dynamically change the font you're watching**, but also to **see a preview of all the fonts**.  
+Voilà !  

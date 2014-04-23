@@ -1,0 +1,5 @@
+# User specific fonts database
+fonts.sqlite3
+
+# User specific Font folder symlink
+Fonts/
