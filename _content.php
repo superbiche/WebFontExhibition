@@ -3,12 +3,12 @@
 <body>
 <div id="header" class="container_16 clearfix">
 <div id="top-select">
-    <label for="font_select" ><?php echo Tools::l('select_font_label', __DEFAULT_LANG__);?></label>
+    <label for="font_select"><?php echo Tools::l('select_font_label', __DEFAULT_LANG__);?></label>
     <select name="font_select" id="font_select">
         <option value="Arial<?php /*echo $default_font->name;*/?>" selected>Arial<?php /*echo $default_font->name;*/?></option>
         <?php
         foreach($fonts as $name => $font) {?>
-            <option value="<?php echo $name;?>" data-format="<?php echo $font->getDatasetFormat();?>" data-path="<?php echo $font->default_path;?>" <?php /* echo $name == $default_font->name ? 'selected' : */'' ?>><?php echo $name;?></option>
+            <option value="<?php echo $name;?>" data-format="<?php echo $font->getDatasetFormat();?>" data-path="<?php echo $font->default_path;?>"><?php echo $name;?></option>
         <?php
         }
         ?>

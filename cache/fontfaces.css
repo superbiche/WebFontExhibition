@@ -3411,9 +3411,16 @@ font-family: "RAINNM--";
 src: url('../Fonts/Web/Manfried Klein Fonts/RAINNM__.TTF') format('truetype');
 }
 
-@font-face { 
+@font-face {
 font-family: "RAINYDAY";
-src: url('../Fonts/Web/Manfried Klein Fonts/rainyday_tt/RAINYDAY.TTF') format('truetype');
+src: url('../Fonts/Web/Manfried Klein Fonts/rainyday_tt/RAINYDAY.eot');
+src: url('../Fonts/Web/Manfried Klein Fonts/rainyday_tt/RAINYDAY.eot?#iefix') format('embedded-opentype'),
+url('../Fonts/Web/Manfried Klein Fonts/rainyday_tt/RAINYDAY.woff') format('woff'),
+url('../Fonts/Web/Manfried Klein Fonts/rainyday_tt/RAINYDAY.ttf') format('truetype'),
+url('../Fonts/Web/Manfried Klein Fonts/rainyday_tt/RAINYDAY.svg#RAINYDAY') format('svg');
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
 }
 
 @font-face { 

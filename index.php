@@ -172,10 +172,10 @@ if(!$dir_changed && !isset($_SESSION['fonts']))
         
 
         
-        $_SESSION['fonts'] = $fonts;
+        //$_SESSION['fonts'] = $fonts;
 
 } else {
-    $fonts = $_SESSION['fonts'];
+    //$fonts = $_SESSION['fonts'];
 }
 //echo '<pre>';
 //print_r($fonts);
