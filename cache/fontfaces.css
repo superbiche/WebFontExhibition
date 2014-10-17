@@ -30,11 +30,6 @@ src: url('../Fonts/Web/Manfried Klein Fonts/aidaserif_tt/AidaSerifBold.ttf') for
 }
 
 @font-face { 
-font-family: "Airbag-Regular";
-src: url('../Fonts/Web/Airbag-Regular.otf') format('opentype');
-}
-
-@font-face { 
 font-family: "Akashi";
 src: url('../Fonts/Web/Akashi/akashi.ttf') format('truetype');
 }
@@ -46,32 +41,32 @@ src: url('../Fonts/Web/Aldo Semi/Aldo semi-bold0.12.ttf') format('truetype');
 
 @font-face { 
 font-family: "Aleo-Bold";
-src: url('../Fonts/Web/aleo/Aleo-Bold.otf') format('opentype');
+src: url('../Fonts/Web/Aleo/Aleo-Bold.otf') format('opentype');
 }
 
 @font-face { 
 font-family: "Aleo-BoldItalic";
-src: url('../Fonts/Web/aleo/Aleo-BoldItalic.otf') format('opentype');
+src: url('../Fonts/Web/Aleo/Aleo-BoldItalic.otf') format('opentype');
 }
 
 @font-face { 
 font-family: "Aleo-Italic";
-src: url('../Fonts/Web/aleo/Aleo-Italic.otf') format('opentype');
+src: url('../Fonts/Web/Aleo/Aleo-Italic.otf') format('opentype');
 }
 
 @font-face { 
 font-family: "Aleo-Light";
-src: url('../Fonts/Web/aleo/Aleo-Light.otf') format('opentype');
+src: url('../Fonts/Web/Aleo/Aleo-Light.otf') format('opentype');
 }
 
 @font-face { 
 font-family: "Aleo-LightItalic";
-src: url('../Fonts/Web/aleo/Aleo-LightItalic.otf') format('opentype');
+src: url('../Fonts/Web/Aleo/Aleo-LightItalic.otf') format('opentype');
 }
 
 @font-face { 
 font-family: "Aleo-Regular";
-src: url('../Fonts/Web/aleo/Aleo-Regular.otf') format('opentype');
+src: url('../Fonts/Web/Aleo/Aleo-Regular.otf') format('opentype');
 }
 
 @font-face {
@@ -585,11 +580,6 @@ font-family: "BrushPenMK-Medium";
 src: url('../Fonts/Web/Manfried Klein Fonts/BrushPenMK-Medium/BrushPenMK-Medium.ttf') format('truetype');
 }
 
-@font-face { 
-font-family: "Building-Typeface";
-src: url('../Fonts/Web/Building_Typeface.ttf') format('truetype');
-}
-
 @font-face {
 font-family: "Burton-s-nigthmare2000";
 src: url('../Fonts/Web/Burtons Nightmare 2000/Burton_s_nigthmare2000.eot');
@@ -693,11 +683,6 @@ font-variant: normal;
 @font-face { 
 font-family: "Carissma";
 src: url('../Fonts/Web/Manfried Klein Fonts/Carissma.ttf') format('truetype');
-}
-
-@font-face { 
-font-family: "Casper-Sans";
-src: url('../Fonts/Web/Casper-Sans.otf') format('opentype');
 }
 
 @font-face {
@@ -1089,11 +1074,6 @@ src: url('../Fonts/Web/Delicious/Delicious-SmallCaps.otf') format('opentype');
 }
 
 @font-face { 
-font-family: "Derkon Serif";
-src: url('../Fonts/Web/Derkon-Derkon-Hand/Derkon Serif.otf') format('opentype');
-}
-
-@font-face { 
 font-family: "Desastra-Bold";
 src: url('../Fonts/Web/Manfried Klein Fonts/Desastra-Bold.ttf') format('truetype');
 }
@@ -1429,26 +1409,6 @@ src: url('../Fonts/Web/Manfried Klein Fonts/Manfied Kleins Fonteria 50/Floratial
 }
 
 @font-face { 
-font-family: "Focus-Italic";
-src: url('../Fonts/Web/focus/Focus-Italic.ttf') format('truetype');
-}
-
-@font-face { 
-font-family: "Focus-Medium";
-src: url('../Fonts/Web/focus/Focus-Medium.ttf') format('truetype');
-}
-
-@font-face { 
-font-family: "Focus-MediumItalic";
-src: url('../Fonts/Web/focus/Focus-MediumItalic.ttf') format('truetype');
-}
-
-@font-face { 
-font-family: "Focus-Regular";
-src: url('../Fonts/Web/focus/Focus-Regular.ttf') format('truetype');
-}
-
-@font-face { 
 font-family: "Folks-Bold";
 src: url('../Fonts/Web/Folks-Light/Folks-Bold.ttf') format('truetype');
 }
@@ -1605,11 +1565,6 @@ src: url('../Fonts/Web/Manfried Klein Fonts/gridexgap_tt/GRIDPIX_.TTF') format('
 }
 
 @font-face { 
-font-family: "Gafata";
-src: url('../Fonts/Web/Gafata.otf') format('opentype');
-}
-
-@font-face { 
 font-family: "GandhiSans-Bold";
 src: url('../Fonts/Web/gandhi-sans/GandhiSans-Bold.otf') format('opentype');
 }
@@ -1644,21 +1599,6 @@ font-family: "GaranitialsFramed";
 src: url('../Fonts/Web/Manfried Klein Fonts/Manfied Kleins Fonteria 50/Garanitials/GaranitialsFramed.ttf') format('truetype');
 }
 
-@font-face { 
-font-family: "Gasalt-Black";
-src: url('../Fonts/Web/Gasalt/Gasalt-Black.ttf') format('truetype');
-}
-
-@font-face { 
-font-family: "Gasalt-Regular";
-src: url('../Fonts/Web/Gasalt/Gasalt-Regular.ttf') format('truetype');
-}
-
-@font-face { 
-font-family: "Gasalt-Thin";
-src: url('../Fonts/Web/Gasalt/Gasalt-Thin.ttf') format('truetype');
-}
-
 @font-face {
 font-family: "GearsOfPeace";
 src: url('../Fonts/Web/Gears of Peace/GearsOfPeace.eot');
@@ -1669,11 +1609,6 @@ url('../Fonts/Web/Gears of Peace/GearsOfPeace.svg#GearsOfPeace') format('svg');
 font-style: normal;
 font-weight: normal;
 font-variant: normal;
-}
-
-@font-face { 
-font-family: "Gent";
-src: url('../Fonts/Web/Gent.otf') format('opentype');
 }
 
 @font-face { 
@@ -1784,26 +1719,6 @@ src: url('../Fonts/Web/hammer-v1-font/hammer-font-by-taulant-sulko.otf') format(
 }
 
 @font-face { 
-font-family: "Hammerhead-Bold";
-src: url('../Fonts/Web/Hammerhead_otf/Hammerhead-Bold.otf') format('opentype');
-}
-
-@font-face { 
-font-family: "Hammerhead-Black";
-src: url('../Fonts/Web/Hammerhead_otf/Hammerhead_Black.otf') format('opentype');
-}
-
-@font-face { 
-font-family: "Hammerhead-Medium";
-src: url('../Fonts/Web/Hammerhead_otf/Hammerhead_Medium.otf') format('opentype');
-}
-
-@font-face { 
-font-family: "Hammerhead-Regular";
-src: url('../Fonts/Web/Hammerhead_otf/Hammerhead_Regular.otf') format('opentype');
-}
-
-@font-face { 
 font-family: "HandmadeTypewriter";
 src: url('../Fonts/Web/Manfried Klein Fonts/HandmadeTypewriter/HandmadeTypewriter.ttf') format('truetype');
 }
@@ -1845,21 +1760,6 @@ font-variant: normal;
 @font-face { 
 font-family: "HipOT";
 src: url('../Fonts/Web/Dig,Dog,HipOT_41027/HipOT.otf') format('opentype');
-}
-
-@font-face { 
-font-family: "Hipstelvetica Bold";
-src: url('../Fonts/Web/HipstelveticaFontFamily/Hipstelvetica Bold.ttf') format('truetype');
-}
-
-@font-face { 
-font-family: "Hipstelvetica Light";
-src: url('../Fonts/Web/HipstelveticaFontFamily/Hipstelvetica Light.ttf') format('truetype');
-}
-
-@font-face { 
-font-family: "Hipstelvetica UltraLight";
-src: url('../Fonts/Web/HipstelveticaFontFamily/Hipstelvetica UltraLight.ttf') format('truetype');
 }
 
 @font-face { 
@@ -2118,16 +2018,6 @@ font-variant: normal;
 }
 
 @font-face { 
-font-family: "Hitchhiker";
-src: url('../Fonts/Web/Hitchhiker.ttf') format('truetype');
-}
-
-@font-face { 
-font-family: "Hitchhiker b";
-src: url('../Fonts/Web/Hitchhiker b.ttf') format('truetype');
-}
-
-@font-face { 
 font-family: "Imperator";
 src: url('../Fonts/Web/Imperator/Imperator.ttf') format('truetype');
 }
@@ -2178,11 +2068,6 @@ src: url('../Fonts/Web/Inconsolata/Inconsolata.otf') format('opentype');
 }
 
 @font-face { 
-font-family: "Infinity";
-src: url('../Fonts/Web/Infinity.ttf') format('truetype');
-}
-
-@font-face { 
 font-family: "InkAlphabetInvers";
 src: url('../Fonts/Web/Manfried Klein Fonts/InkAlphabet/InkAlphabetInvers.ttf') format('truetype');
 }
@@ -2190,16 +2075,6 @@ src: url('../Fonts/Web/Manfried Klein Fonts/InkAlphabet/InkAlphabetInvers.ttf') 
 @font-face { 
 font-family: "InkAlphabetRRings";
 src: url('../Fonts/Web/Manfried Klein Fonts/InkAlphabet/InkAlphabetRRings.ttf') format('truetype');
-}
-
-@font-face { 
-font-family: "Intro Cond Black Free";
-src: url('../Fonts/Web/intro_cond/Intro Cond Black Free.otf') format('opentype');
-}
-
-@font-face { 
-font-family: "Intro Cond Light Free";
-src: url('../Fonts/Web/intro_cond/Intro Cond Light Free.otf') format('opentype');
 }
 
 @font-face { 
@@ -2394,11 +2269,6 @@ font-variant: normal;
 }
 
 @font-face { 
-font-family: "Leave";
-src: url('../Fonts/Web/Leave.ttf') format('truetype');
-}
-
-@font-face { 
 font-family: "Legendum";
 src: url('../Fonts/Web/Legendum/Legendum.otf') format('opentype');
 }
@@ -2563,11 +2433,6 @@ src: url('../Fonts/Web/Manfried Klein Fonts/MKapsMixed.ttf') format('truetype');
 }
 
 @font-face { 
-font-family: "MODERNE SANS";
-src: url('../Fonts/Web/MODERNE_SANS/MODERNE SANS.ttf') format('truetype');
-}
-
-@font-face { 
 font-family: "MONUMENR";
 src: url('../Fonts/Web/Manfried Klein Fonts/Manfied Kleins Fonteria 50/MONUMENR.TTF') format('truetype');
 }
@@ -2585,23 +2450,6 @@ src: url('../Fonts/Web/Manfried Klein Fonts/Manfied Kleins Fonteria 50/Mutoni/MU
 @font-face { 
 font-family: "MUTONIRE";
 src: url('../Fonts/Web/Manfried Klein Fonts/Manfied Kleins Fonteria 50/Mutoni/MUTONIRE.TTF') format('truetype');
-}
-
-@font-face {
-font-family: "Magnum";
-src: url('../Fonts/Web/magnum/magnum.eot');
-src: url('../Fonts/Web/magnum/magnum.eot?#iefix') format('embedded-opentype'),
-url('../Fonts/Web/magnum/magnum.woff') format('woff'),
-url('../Fonts/Web/magnum/magnum.ttf') format('truetype'),
-url('../Fonts/Web/magnum/magnum.svg#Magnum') format('svg');
-font-style: normal;
-font-weight: normal;
-font-variant: normal;
-}
-
-@font-face { 
-font-family: "Main levée-regular";
-src: url('../Fonts/Web/zip-font-1/main levée-regular.ttf') format('truetype');
 }
 
 @font-face { 
@@ -3307,11 +3155,6 @@ src: url('../Fonts/Web/Manfried Klein Fonts/Manfied Kleins Fonteria 50/Pointout.
 }
 
 @font-face { 
-font-family: "Porto 400";
-src: url('../Fonts/Web/Porto 400.ttf') format('truetype');
-}
-
-@font-face { 
 font-family: "Prociono";
 src: url('../Fonts/Web/Prociono/Prociono.otf') format('opentype');
 }
@@ -3411,16 +3254,9 @@ font-family: "RAINNM--";
 src: url('../Fonts/Web/Manfried Klein Fonts/RAINNM__.TTF') format('truetype');
 }
 
-@font-face {
+@font-face { 
 font-family: "RAINYDAY";
-src: url('../Fonts/Web/Manfried Klein Fonts/rainyday_tt/RAINYDAY.eot');
-src: url('../Fonts/Web/Manfried Klein Fonts/rainyday_tt/RAINYDAY.eot?#iefix') format('embedded-opentype'),
-url('../Fonts/Web/Manfried Klein Fonts/rainyday_tt/RAINYDAY.woff') format('woff'),
-url('../Fonts/Web/Manfried Klein Fonts/rainyday_tt/RAINYDAY.ttf') format('truetype'),
-url('../Fonts/Web/Manfried Klein Fonts/rainyday_tt/RAINYDAY.svg#RAINYDAY') format('svg');
-font-style: normal;
-font-weight: normal;
-font-variant: normal;
+src: url('../Fonts/Web/Manfried Klein Fonts/rainyday_tt/RAINYDAY.TTF') format('truetype');
 }
 
 @font-face { 
@@ -3593,33 +3429,6 @@ src: url('../Fonts/Web/ripefamily/ripelight.otf') format('opentype');
 @font-face { 
 font-family: "Ripesemibold";
 src: url('../Fonts/Web/ripefamily/ripesemibold.otf') format('opentype');
-}
-
-@font-face { 
-font-family: "RobotoSlab-Bold";
-src: url('../Fonts/Web/roboto-slab/RobotoSlab-Bold.ttf') format('truetype');
-}
-
-@font-face { 
-font-family: "RobotoSlab-Light";
-src: url('../Fonts/Web/roboto-slab/RobotoSlab-Light.ttf') format('truetype');
-}
-
-@font-face { 
-font-family: "RobotoSlab-Thin";
-src: url('../Fonts/Web/roboto-slab/RobotoSlab-Thin.ttf') format('truetype');
-}
-
-@font-face {
-font-family: "Robotoslab-regular";
-src: url('../Fonts/Web/roboto-slab/robotoslab-regular.eot');
-src: url('../Fonts/Web/roboto-slab/robotoslab-regular.eot?#iefix') format('embedded-opentype'),
-url('../Fonts/Web/roboto-slab/robotoslab-regular.woff') format('woff'),
-url('../Fonts/Web/roboto-slab/robotoslab-regular.ttf') format('truetype'),
-url('../Fonts/Web/roboto-slab/robotoslab-regular.svg#Robotoslab-regular') format('svg');
-font-style: normal;
-font-weight: normal;
-font-variant: normal;
 }
 
 @font-face {
@@ -4078,11 +3887,6 @@ src: url('../Fonts/Web/Manfried Klein Fonts/StripedSansBlack.ttf') format('truet
 }
 
 @font-face { 
-font-family: "Sui generis rg";
-src: url('../Fonts/Web/sui_generis/sui generis rg.ttf') format('truetype');
-}
-
-@font-face { 
 font-family: "Sumo-Heavy";
 src: url('../Fonts/Web/Manfried Klein Fonts/sumoh_tt/Sumo-Heavy.ttf') format('truetype');
 }
@@ -4115,11 +3919,6 @@ src: url('../Fonts/Web/Targa/Targa MS.ttf') format('truetype');
 @font-face { 
 font-family: "Targa MS Hand";
 src: url('../Fonts/Web/Targa/Targa MS Hand.ttf') format('truetype');
-}
-
-@font-face { 
-font-family: "Teardrop by Blastto";
-src: url('../Fonts/Web/teardrop_by_blastto/teardrop by Blastto.ttf') format('truetype');
 }
 
 @font-face { 

@@ -121,15 +121,7 @@
                     keys.push(option.charAt(0).toLowerCase());
                 }
                 // adding a style attribute with the font-family to get a preview
-                container.append($('<li><a' +
-                 (isDisabled ? ' class="newListItemDisabled"' : '') +
-                 ' href="JavaScript:void(0);" style="font-family:' + 
-                 '\'' + 
-                 option + 
-                 '\';">' + 
-                    option + 
-                    '</a>' + 
-                '</li>').data({
+                container.append($('<li><a' + (isDisabled ? ' class="newListItemDisabled"' : '') + ' href="JavaScript:void(0);" style="font-family:\'' + option + '\'">' + option + '</a></li>').data({
                     'key': key,
                     'selected': $(item).is(':selected')
                 }));

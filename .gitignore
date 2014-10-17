@@ -1,6 +1,6 @@
-# User specific fonts database
-fonts.sqlite3
-
-# User specific Font folder symlink
-Fonts/
-Fonts
+Fonts/*
+!Fonts/.gitkeep
+cache/*
+!cache/.gitkeep
+vendor/*
+.idea/

@@ -1,7 +1,7 @@
 <?php
-session_set_cookie_params(76000); // will be removed soon
+session_set_cookie_params(76000);
 session_start();
-//unset($_SESSION['fonts']); 
+unset($_SESSION['fonts']);
 require_once './inc/config/config.inc.php';
 require_once './inc/Tools.class.php';
 require_once './inc/PDOFactory.class.php';
@@ -172,10 +172,10 @@ if(!$dir_changed && !isset($_SESSION['fonts']))
         
 
         
-        //$_SESSION['fonts'] = $fonts;
+        $_SESSION['fonts'] = $fonts;
 
 } else {
-    //$fonts = $_SESSION['fonts'];
+    $fonts = $_SESSION['fonts'];
 }
 //echo '<pre>';
 //print_r($fonts);

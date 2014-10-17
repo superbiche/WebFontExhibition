@@ -4,6 +4,9 @@ The goal of this document is mainly to be a tasklist for me not to forget to mak
 
 ## Technical Todos
 
+
+- we have to ensure the fonts will stay cached in the client computer, and if we could, avoid them being deleted when we clear the browser cache. Maybe working with HTML5 Cache...
+
 ### Database implementation
 Maybe some other DB interfaces could be added but it's not the most urgent thing to do.
 
