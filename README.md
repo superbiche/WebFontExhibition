@@ -2,8 +2,7 @@
 
 [Web Font Specimen](http://wfs.typographisme.net/) is a very lightweight tool helping any designer who uses type to check any font properties in a really simple and fast way.  
 
-[Web Font Specimen Server](http://www.webiche.info/projects/wfss) is just aimed at people having a PHP server on their machine or elsewhere, who need to check **loads** of fonts - just like me at this time.  
-In addition, the @font-face technique used is not using the .otf format, but instead uses 
+[Web Font Specimen Server](http://www.webiche.info/projects/wfss) is just aimed at people having a PHP server available, who need to check **loads** of fonts - just like me at this time.
 
 _**For people who don't like PHP**, you can simply use [Web Font Specimen](http://wfs.typographisme.net/) coupled with [FontFrient](http://somadesign.ca/projects/fontfriend/), an incredibly useful bookmarklet that allows you to change your page's font by simply dragging it in a zone. But that's not the point._
 
@@ -49,5 +48,5 @@ Just open the /inc/config.inc.php file and set config.fonts.directory to the rig
 
 
 
-### Enjoy the beauty of type and the power of PHP and javascript
+### Enjoy the beauty of type
 Now you're done! Just go with your browser to the right page, and you should see something really similar to Web Font Specimen, with just one exception: the select menu allows you to dynamically change the font you're watching, but also to see a preview of all the fonts. 
